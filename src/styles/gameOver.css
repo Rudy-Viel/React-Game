@@ -1,0 +1,23 @@
+.game-over-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 20;
+  }
+  
+  .game-over-overlay button {
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    background-color: #e63946;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  

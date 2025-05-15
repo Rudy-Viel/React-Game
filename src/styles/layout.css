@@ -1,0 +1,10 @@
+.game-layout {
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
+    gap: 2rem;
+    min-height: 100vh;
+  }
+  

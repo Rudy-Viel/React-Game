@@ -1,0 +1,43 @@
+.map-container {
+  display: inline-block;
+  background-color: #1f1f1f;
+  padding: 12px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  border: 1px solid #2c2c2c;
+}
+
+.map-row {
+  display: flex;
+}
+
+.map-cell {
+  width: 64px;
+  height: 64px;
+  background-color: #2a2a2a;
+  border: 1px solid #3a3a3a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.25s ease, transform 0.1s ease;
+  border-radius: 8px;
+  margin: 2px;
+}
+
+.map-cell.clickable {
+  cursor: pointer;
+}
+
+.map-cell.clickable:hover {
+  background-color: #3a3a3a;
+  transform: scale(1.03);
+  box-shadow: 0 0 4px #ffd86b88;
+}
+
+.cell-icon {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+  display: block;
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.5));
+}
